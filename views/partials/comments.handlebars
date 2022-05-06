@@ -1,0 +1,65 @@
+<div class="container mx-auto columns-1">
+{{#each post.comments as |comment|}}
+<div id="cmtbackground"class="flex justify-center py-3">
+  {{!-- <i id="abutton" class="fa-solid fa-circle"></i> --}}
+  <div id="comments" class="p-6 rounded-lg shadow-lg bg-white w-3/4">
+    <p class="text-gray-700 text-base mb-4">
+     {{ comment.text }}
+    </p>
+</div>
+</div>
+{{/each}}
+
+{{#if loggedIn}}
+<div class="container mx-auto flex flex-col justify-center py-2.5">
+<div id="createpost" class="block p-6 rounded-lg shadow-lg  bg-black">
+    <h1 class="text-xl text-black flex justify-center font-semibold py-3" >Add a Comment to {{post.title}}</h1>
+  <form id="new-comment-form">
+    <div class="form-group mb-6">
+      <textarea id="comment" name="comment-body"
+      class="
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      "
+      id="exampleFormControlTextarea13"
+      rows="3"
+      placeholder="Show some love? Or not, you do you boo..."
+    ></textarea>
+    </div>
+    <button id="commentbutton" type="submit" class="
+      w-full
+      px-6
+      py-2.5
+      bg-blue-600
+      text-white
+      font-medium
+      text-xs
+      leading-tight
+      uppercase
+      rounded
+      shadow-md
+      hover:bg-blue-700 hover:shadow-lg
+      focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+      active:bg-blue-800 active:shadow-lg
+      transition
+      duration-150
+      ease-in-out">comment</button>
+  </form>
+</div>
+</div>
+{{/if}}
+
+

@@ -1,0 +1,19 @@
+body {
+    background: url('https://clipart.world/wp-content/uploads/2020/08/gameboy-flat-icon.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin: 0, 25%;
+    
+}
+
+#displaytext{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+#welcome{
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+}

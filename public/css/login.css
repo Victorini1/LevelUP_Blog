@@ -1,0 +1,23 @@
+#background{
+	background: url("https://source.unsplash.com/1600x900/?technology") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#signin{
+	color: white;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#create{
+	font-size: 18px;
+	font-weight: 800;
+	color: #4AEA7A;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#button{
+ background-color: #4AEA7A;
+}
+

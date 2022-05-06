@@ -1,0 +1,44 @@
+<header>
+  <nav id="navbar" class="relative w-full flex flex-wrap items-center justify-center py-3 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg">
+        <a id="sidequest" class="text-xl text-black font-semibold pt-2.5 px-20" ></i> LevelUP Blogs</a>
+        </div>
+    <div class="container-fluid w-full flex flex-start px-6 justify-between items-center">
+        <h1 class="flex flex-start"> <a href="/" class="has-text-black self-center has-text-weight-bold fa-2xl"><i class="fa-solid fa-laptop-code"></i> </a> </h1>
+      {{#unless loggedIn}}
+      <p id="login-signup" class="flex justify-self-end"><a href="/login">login</a>/<a href="/signup">signup</a></p>
+      {{/unless}}
+      {{#if loggedIn}}
+    <a class="flex justify-self-end" id="logout" href="">Log Out</a>
+      {{/if}}
+          </div>
+      {{#if loggedIn}}     
+       <a id="library" class="text-l flex justify-end text-black font-semibold px-20" href="/dashboard">Your Posts</a>
+       </div>
+     {{/if}}
+  
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+
+  <div class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover" style="
+  background-image: url('https://source.unsplash.com/1600x900/?technology');
+  height: 400px;
+">
+    <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+      style="background-color: rgba(0, 0, 0, 0.6)">
+      <div class="flex justify-center items-center h-full">
+        <div class="text-white">
+          <h2 id="randommsg"class="font-semibold text-4xl mb-4">{{ randommessage }}</h2>
+          {{#if loggedIn}}
+          <a class="inline-block px-7 py-3 mb-1 border-2 border-gray-200 text-gray-200 font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+            href="/dashboard/new" role="button" data-mdb-ripple="true" data-mdb-ripple-color="light">Add a Post</a>
+            {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jumbotron -->
+
+</header>

@@ -1,0 +1,26 @@
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/homepage.css"> 
+{{> header }}
+
+<div class="container mx-auto px-20">
+<div class="flex justify-center">
+<div id="single-post" class="w-72 bg-white rounded-lg shadow-md p-6" style="cursor: auto;">
+  <div  class="w-16 mx-auto relative -mt-10 mb-3">
+    <img id="pic" class="-mt-1" src="https://as1.ftcdn.net/v2/jpg/02/91/30/32/1000_F_291303231_XtAlZgHTFITfpIEhIgZFYGniwjmndyv0.jpg" alt="computer setup">
+  </div>
+  <span class="flex justify-center w-full sm:w-48 pl-12 block leading-tight font-medium text-gray-800 text-3xl mb-3">{{post.title}}</span>
+  <span class="flex justify-center w-full sm:w-48 pl-12 block leading-tight font-small text-gray-800 text-lg mb-3">{{post.description}}</span>
+
+  {{#if loggedIn}}
+     <button type="delete" id="delete" class="px-6 py-2.5 w-full bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">delete post</button>
+  {{/if}}
+    </div>
+</div>
+</div>
+
+    {{> comments }}
+    
+    <script src="/js/comment.js"></script>
+
+
+  

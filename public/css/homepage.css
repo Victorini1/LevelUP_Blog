@@ -1,0 +1,94 @@
+#navbar{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(39, 39, 177);
+}
+
+#sidequest{
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black
+}
+
+#library{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+#exclamation{
+    color: yellow;
+}
+
+body{
+    background-color: black;
+    padding-bottom: 5%;
+}
+
+#createpost{
+    background-color: #324657;
+}
+
+#createpost h1{
+    color: white;
+}
+
+#postbutton, #morebutton, #delete, #commentbutton{
+    background-color: rgb(39, 39, 177);
+}
+
+#posts{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #8CB1B3;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ec110d;;
+}
+
+#posts h5{
+    font-size: 32px;
+}
+#posts p{
+    font-size: 20px;
+}
+
+#login-signup,#logout{
+    color: white;
+    padding-left: 150px;
+    font-weight: 800;
+    font-family: 'PT Sans', sans-serif
+}
+
+#single-post{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #8CB1B3;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ec110d;
+}
+
+.fa-laptop-code{
+    color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #AF3E54;
+}
+
+
+#comments{
+border-radius: 50px;
+}
+
+#cmtbackground{
+    background-color: #8CB1B3;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+#pic{
+    border-radius: 50px;
+}
