@@ -1,4 +1,4 @@
-# Project 2: SideQuest
+# LevelUP Blogs
 -------
 
 ## Table of Content
@@ -14,28 +14,20 @@
 -------
 ## Description:  
 
-SideQuest is an online site to keep track of the large game libraries you own.
+In this excersice we were to demostrate using handlebars, express, and javascript to create a functioning blog site that allows users to log in and create posts. In these posts the functionality to  delete or update their posts as well as comment on others posts. 
 
-------
-## Images:
+### Screenshots
 
-<!-- ![Image of The Gaming Shelf](./assets/images/EMTS.jpg) -->
+![Homepage](./Assets/homepage.png)
+![Login Page](./Assets/login.png)
+![Comments](./Assets/comment.png)
 
-----
-## Github Repository:
-
-- [Github Repository for Project 2: The Gaming Shelf](https://github.com/ksjefferies/project-2)
-
-## Authors:
+## Contributors
 
 - [Kelly Jefferies](https://github.com/ksjefferies)
 - [Eugene Ahn](https://github.com/eugene125)
 - [Victor Kennedy](https://github.com/Victorini1)
 - [Stephen Elliott](https://github.com/UsernameisStephen)
-
-## Contributors
-
-- Daniel Norred
 
 ## Technologies Used:
 
